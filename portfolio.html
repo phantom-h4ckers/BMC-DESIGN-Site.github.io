@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre Portfolio - Nom de l'Entreprise</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html">Votre Logo</a>
+            </div>
+            <ul class="nav-links" id="navMenu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="cta-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section class="page-hero reveal">
+            <div class="container">
+                <h1>Nos Derniers Projets Créatifs</h1>
+                <p>Découvrez la qualité et la diversité de notre travail à travers nos réalisations en branding, web design, et print.</p>
+            </div>
+        </section>
+
+        <section class="portfolio-filters reveal">
+            <div class="container">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="print">Impression</button>
+            </div>
+        </section>
+
+        <section class="portfolio-gallery reveal">
+            <div class="container gallery-grid">
+                
+                <a href="#" class="portfolio-item branding">
+                    <img src="images/1.jpg" alt="Description du Projet 1" loading="lazy">
+                    <div class="overlay"><h3>Visuel pour coiffure</h3><p>Signé BMC Design</p></div>
+                </a>
+
+                <a href="#" class="portfolio-item web">
+                    <img src="images/2.jpg" alt="Description du Projet 2" loading="lazy">
+                    <div class="overlay"><h3>Jus Energie XXL</h3><p>Signé BMC Design</p></div>
+                </a>
+
+                <a href="#" class="portfolio-item print">
+                    <img src="images/3.jpg" alt="Description du Projet 3" loading="lazy">
+                    <div class="overlay"><h3>Projet HIMRA</h3><p>Signé BMC Design</p></div>
+                </a>
+                
+                <a href="#" class="portfolio-item branding">
+                    <img src="images/4.jpg" alt="Description du Projet 4" loading="lazy">
+                    <div class="overlay"><h3>Projet Publicité</h3><p>Signé BMC Design</p></div>
+                </a>
+                <a href="#" class="portfolio-item branding">
+                    <img src="images/13.jpg" alt="Description du Projet 5" loading="lazy">
+                    <div class="overlay"><h3>Projet Restaurant</h3><p>Signé BMC Design</p></div>
+                </a>
+                <a href="#" class="portfolio-item branding">
+                    <img src="images/12.jpg" alt="Description du Projet 6" loading="lazy">
+                    <div class="overlay"><h3>Projet Publicité</h3><p>Signé BMC Design</p></div>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Nom de l'Entreprise. Tous droits réservés.</p>
+        </div>
+    </footer>
+    
+    <script src="js/script.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-Nous - BMC Design</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html">Votre Logo</a>
+            </div>
+            <ul class="nav-links" id="navMenu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="cta-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section class="page-hero reveal">
+            <div class="container">
+                <h1>Démarrons Votre Prochain Projet !</h1>
+                <p>Que vous ayez une idée précise ou besoin de conseils, contactez-nous. Notre équipe répondra rapidement à votre demande.</p>
+            </div>
+        </section>
+
+        <section class="contact-section reveal">
+            <div class="container contact-grid">
+                
+                <div class="contact-form-container">
+                    <h2>Envoyez-nous un Message</h2>
+                    <form action="#" method="POST" class="contact-form">
+                        
+                        <div class="form-group">
+                            <label for="name">Votre Nom Complet *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Votre Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Sujet de la Demande</label>
+                            <input type="text" id="subject" name="subject">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Votre Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="cta-button">Envoyer le Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-info-container">
+                    <h2>Nos Coordonnées</h2>
+                    
+                    <div class="info-item">
+                        <h3>Adresse</h3>
+                        <p>CONAKRY, LABE, GUINEE</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <p><a href="mailto:contact@votreagence.com">bmcdesign2509@gmail.com</a></p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>Téléphone</h3>
+                        <p><a href="tel:+1234567890">+224 611 988 274 / 628 464 142</a></p>
+                    </div>
+
+                    <div class="social-contact">
+                        <h3>Suivez-nous</h3>
+                        <a href="#" aria-label="LinkedIn" class="social-icon">In</a>
+                        <a href="#" aria-label="Instagram" class="social-icon">Ig</a>
+                        <a href="#" aria-label="Behance" class="social-icon">Be</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 BMC Design. Tous droits réservés.</p>
+        </div>
+    </footer>
+    
+    <script src="js/script.js" defer></script>
+
+</body>
+</html>
